@@ -1,34 +1,33 @@
 #Resume On Map
-===========
+
+[![alt tag](https://raw2.github.com/shanshanzhu/resumeOnMap/master/client/img/screenShot.png)](http://shanshanzhu.github.io)
+
+### The full stack source code is on https://github.com/shanshanzhu/resumeOnMap
 
 A full stack webapp to allow user to type in public linkedin profile
 page and visulize their work experience and education on Google MAP API
+
 ### Master Branch
+
 ```
-git clone 
+git clone //add the repo link here
 npm install 
-bower install
 grunt dev
 ```
-When you local server is set up:
-type in the public linkedin profile page page
-it will render the user info as long as the the link provided is visible to public.
 
+- Run the above code to start your local server:
 
-### singlePage Branch
-Server side code is removed.
-Pure front-end portion of the app.
-on github.io
+- Type in the public linkedin profile page;(the url must be accessible to public)
 
+- go to your localhost:5000, and Visualize the user's resume on map
 
 ### Technical Stacks
 Backbone/RequireJS/JQuery/Underscore
-Express/Node
-
+Grunt/Express/Node
 
 ### Major update
 2013.1.24
-final wrap up.
+Final wrap up.
 
 2013.1.20
 Major feature complete
