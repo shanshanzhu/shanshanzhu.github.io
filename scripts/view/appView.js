@@ -18,10 +18,6 @@ define(["./mapView", "./controllerView", "./urlInputView", "./textTagsView",
         el: this.$('.map-canvas')
       });
 
-      this.urlInputView = new urlInputView({
-        collection: this.categories,
-        el: this.$('.url-input')
-      });
 
       this.categories.on('reset', this.renderControllerView, this);
       this.categories.on('showTextTags', this.showTextTags, this);
